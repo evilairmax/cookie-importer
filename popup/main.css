@@ -1,0 +1,103 @@
+html, body {
+  	width: 300px;
+  	font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,Roboto Rouble,sans-serif;
+  	font-size: 14px;
+  	color: #e8e8e5;
+  	webkit-font-smoothing: antialiased;
+  	text-rendering: optimizeLegibility;
+  	-moz-font-smoothing: grayscale;
+  	background-color: #161616;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  background: linear-gradient(to right, #f46b45, #eea849);
+  background-clip: border-box;
+  -webkit-background: -webkit-linear-gradient(to right, #f46b45, #eea849);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+#success {
+  	/* display: none; */
+    color: #baffc9;
+}
+
+#error {
+    /* display: none; */
+    color: #ffb3ba;
+}
+
+#popup-content {
+  	text-align: center;
+}
+
+#copyright {
+	text-align: center;
+	margin-bottom: 10px;
+	height: 10px;
+	font-size: 10px;
+}
+
+#copyright > a {
+	color: #a3f87d;
+	text-decoration: none;
+}
+
+textarea {
+  width: calc(100% - 40px);
+  height: 100px;
+  padding: 6px 12px;
+  display: block;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  transition: border-color .15s ease-in-out 0s,box-shadow .15s ease-in-out 0s;
+  resize: none;
+  margin-bottom: 15px;
+}
+
+#separator {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.button {
+  width: calc(100% - 15px);
+  margin-right: 15px;
+  -moz-appearance: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-appearance: none;
+  -webkit-user-select: none;
+  appearance: none;
+  background-position: -1px -1px;
+  background-repeat: repeat-x;
+  background-size: 110% 110%;
+  border: 1px solid rgba(27,31,35,.2);
+  border-radius: .25em;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 12px;
+  position: relative;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  background-color: #FFDC00;
+  background-image: none;
+  color: hsla(52, 100%, 20%, 1.0);
+  text-transform: uppercase;
+}
