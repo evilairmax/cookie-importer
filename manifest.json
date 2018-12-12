@@ -8,7 +8,7 @@
   "homepage_url": "https://github.com/fffawn/cookie-importer",
   
   "icons": {
-    "96": "icons/logo.png"
+    "96": "icons/icon.png"
   },
 
   "permissions": [
@@ -18,7 +18,7 @@
   ],
 
   "browser_action": {
-    "default_icon": "icons/logo.png",
+    "default_icon": "icons/icon.png",
     "default_title": "Cookie importer",
     "default_popup": "popup/main.html"
   }

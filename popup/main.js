@@ -40,7 +40,7 @@ document.getElementById("process").addEventListener("click", (e) => {
 
 		absoluteUrl = cHost.split('.').filter(function(elem){ return elem != ""; }).join('.');
 
-		let browser = browser || chrome
+		var browser = browser || chrome
 
 		browser.cookies.set({url:(cSecure ? 'https://' : 'http://') + absoluteUrl, name:cName, value:cValue, domain:cHost, path:cPath, secure:cSecure, expirationDate:cExpiry});
 
