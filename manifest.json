@@ -4,11 +4,11 @@
   "name": "Cookie importer",
   "version": "1.0",
 
-  "description": "Navigator extension for cookies import.",
+  "description": "Add-on/extension for Chrome, Opera and Firefox built using the WebExtensions APIs.",
   "homepage_url": "https://github.com/fffawn/cookie-importer",
   
   "icons": {
-    "96": "icons/icon.png"
+    "96": "icon.png"
   },
 
   "permissions": [
@@ -18,7 +18,7 @@
   ],
 
   "browser_action": {
-    "default_icon": "icons/icon.png",
+    "default_icon": "icon.png",
     "default_title": "Cookie importer",
     "default_popup": "popup/main.html"
   }
